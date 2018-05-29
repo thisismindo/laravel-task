@@ -1,6 +1,6 @@
-#Laravel
+# Laravel
 
-##Setup
+## Setup
 
 *   composer install
 *   npm install
