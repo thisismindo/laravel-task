@@ -16,6 +16,7 @@ window.Vue = require('vue');
 
 Vue.component('task-list', require('./components/TaskList.vue'));
 Vue.component('task-composer', require('./components/TaskComposer.vue'));
+Vue.component('user-input', require('./components/UserInput.vue'));
 
 const app = new Vue({
     el: '#taskapp',

@@ -25,6 +25,11 @@ Route::put('/task/{id}', 'TaskController@update');
 
 Route::post('/task', 'TaskController@create');
 
+// vuejs only controller is not needed
+Route::get('/user-input', function(){
+    return view('user-input.user-input');
+})->middleware('auth');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
